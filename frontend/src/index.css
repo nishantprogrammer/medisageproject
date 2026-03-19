@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply antialiased text-slate-800 bg-slate-50;
+}
